@@ -1,6 +1,7 @@
-#include "shape.hpp"
+#ifndef RECTANGLE_HPP
+#define RECTANGLE_HPP
 
-using namespace std;
+#include "shape.hpp"
 
 class Rectangle : public Shape
 {
@@ -9,8 +10,10 @@ private:
     double width{};
 
 public:
-    explicit Rectangle(double length, double radius);
+    explicit Rectangle();
+    explicit Rectangle(double length, double width);
     double getArea() override;
     double getPerimeter() override;
-    
 };
+
+#endif // RECTANGLE_HPP
