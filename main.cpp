@@ -9,6 +9,7 @@
 using namespace std;
 
 int main () {
+    cout << "hello";
 
     Circle circle = Circle(2.00);
     assert(circle.getArea() < 12.57);
