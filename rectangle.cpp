@@ -16,6 +16,6 @@ double Rectangle::getArea()
 
 double Rectangle::getPerimeter()
 {
-    double area = 2 * (length + width);
-    return area;
+    double perimeter = 2 * (length + width);
+    return perimeter;
 };

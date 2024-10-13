@@ -1,6 +1,7 @@
-#include "shape.hpp"
+#ifndef CIRCLE_HPP
+#define CIRCLE_HPP
 
-using namespace std;
+#include "shape.hpp"
 
 class Circle : public Shape
 {
@@ -12,3 +13,5 @@ public:
     double getArea() override;
     double getPerimeter() override;
 };
+
+#endif // CIRCLE_HPP
